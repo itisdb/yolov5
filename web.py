@@ -1,8 +1,8 @@
 from flask import Flask,render_template,Response
 import cv2
-from Yolo_Demo_WCF import YOLO_OBJECT_DETECTION
 
 app=Flask(__name__)
+
 camera=cv2.VideoCapture('m3u8\\video.m3u8')
 
 def generate_frames():
@@ -25,7 +25,7 @@ def index():
 
 @app.route('/video')
 def video():
-    return Response(YOLO_OBJECT_DETECTION(True,camera),mimetype='multipart/x-mixed-replace; boundary=frame')
+    return Response(generate_frames(),mimetype='multipart/x-mixed-replace; boundary=frame')
 
 if __name__=="__main__":
     app.run(debug=True)
