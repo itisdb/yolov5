@@ -1,23 +1,32 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>YOLO-Object Detection</title>
-</head>
+    <head>
+    <meta charset=utf-8 />
+    <title>HLS STREAMING</title>
+    <link rel="stylesheet" href='js/style.css'/>
+        <link href="js/video-js.css" rel="stylesheet">
+        <script src='js/video.min.js'></script>
+        <script src="js/videojs-http-streaming.js"></script>
+    </head>
 <body>
+<h2><b>Live Streaming Object Detection</b></h2>
+<div align="center">
+    <video-js id="live_stream" class="video-js vjs-default-skin vjs-big-play-centered" controls preload="auto" autoplay="true" width="600" height="600" poster="/poster.jpg">
+    <source src="/tmp_hls/stream/index.m3u8" type="application/x-mpegURL">
 
-
-
-<div class='App'>
-    <header class='App-header'>
-      <h1>Live streaming</h1>
-      <div>
-  
-          <img src="{{ url_for('video_feed') }}" width="50%"/>
-      </div>
-              
-      </body>
-	</header>
+    <p class='vjs-no-js'>
+      To view this video please enable JavaScript, and consider upgrading to a web browser that
+      <a href='https://videojs.com/html5-video-support/' target='_blank'>supports HTML5 video</a>
+    </p>
+    </video-js>
+    
+  <script>
+    var player = videojs('live_stream');
+	player.play();
+  </script>
 </div>
-
+<hr>
+	
+<p><b> IEMA Research & Development<b></p>
 </body>
 </html>
