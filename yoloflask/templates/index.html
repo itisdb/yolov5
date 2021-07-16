@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset=utf-8 />
+    <title>Live Stream : Object Detect</title>
+    <link rel="stylesheet" href='@js/style.css'/>
+        <link href="@js/video-js.css" rel="stylesheet">
+        <script src='@js/video.min.js'></script>
+        <script src="@js/videojs-http-streaming.js"></script>
+    </head>
+<body>
+<h2 align="center"><b>Live Streaming Object Detection</b></h2>
+<div align="center">
+  <img src="{{ url_for('video_feed') }}" width='1080px'>
+    
+  <script>
+    var player = videojs('live_stream');
+	player.play();
+  </script>
+</div>
+<hr>
+	
+<p align="center"><b> IEMA Research & Development<b></p>
+</body>
+</html>
