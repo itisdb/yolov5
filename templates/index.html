@@ -9,16 +9,9 @@
         <script src="js/videojs-http-streaming.js"></script>
     </head>
 <body>
-<h2><b>Live Streaming Object Detection</b></h2>
+<h2 align="center"><b>Live Streaming Object Detection</b></h2>
 <div align="center">
-    <video-js id="live_stream" class="video-js vjs-default-skin vjs-big-play-centered" controls preload="auto" autoplay="true" width="600" height="600" poster="/poster.jpg">
-    <source src="/tmp_hls/stream/index.m3u8" type="application/x-mpegURL">
-
-    <p class='vjs-no-js'>
-      To view this video please enable JavaScript, and consider upgrading to a web browser that
-      <a href='https://videojs.com/html5-video-support/' target='_blank'>supports HTML5 video</a>
-    </p>
-    </video-js>
+  <img src="{{ url_for('video_feed') }}" width='77%'>
     
   <script>
     var player = videojs('live_stream');
@@ -27,6 +20,6 @@
 </div>
 <hr>
 	
-<p><b> IEMA Research & Development<b></p>
+<p align="center"><b> IEMA Research & Development<b></p>
 </body>
 </html>
