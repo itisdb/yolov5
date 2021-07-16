@@ -10,11 +10,11 @@
 
 **Change the Source as per your choice (in web.py):**
 
-- ![](RackMultipart20210716-4-9gv36p_html_5f74e973e5f1bf6b.png)
+- ![image](https://user-images.githubusercontent.com/53273486/126006975-c76f5607-2da4-430b-b902-6953eedd54fb.png)
 
 **This is for v3. Change the value of source to the rtsp/rtmp/https url (make sure they are in single quotes)**
 
-- ![](RackMultipart20210716-4-9gv36p_html_f9eb050b6b121b93.png)
+- ![image](https://user-images.githubusercontent.com/53273486/126007015-e7b20c95-4178-4de0-8133-ced2cff93d95.png)
 
 **This is for v5. Enter you rtsp/rtmp/https url in place of \&lt;your rtsp yrl\&gt; in the argument section of the function yolo.run()**
 
