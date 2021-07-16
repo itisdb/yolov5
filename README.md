@@ -1,1 +1,1 @@
-YOLO v5 with real time
+Yolo v5 in real time with flask
