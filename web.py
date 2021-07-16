@@ -6,7 +6,7 @@ from Yolo_Demo_WCF import YOLO_OBJECT_DETECTION
 
 #Initialize the Flask app
 app = Flask(__name__)
-source='m3u8/video.m3u8'   #change this source when changing every stuff.
+source=0   #change this source when changing every stuff.
 camera = cv2.VideoCapture(source)
 '''
 for ip camera use - rtsp://username:password@ip_address:554/user=username_password='password'_channel=channel_number_stream=0.sdp' 

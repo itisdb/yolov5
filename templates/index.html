@@ -2,16 +2,16 @@
 <html>
     <head>
     <meta charset=utf-8 />
-    <title>HLS STREAMING</title>
-    <link rel="stylesheet" href='js/style.css'/>
-        <link href="js/video-js.css" rel="stylesheet">
-        <script src='js/video.min.js'></script>
-        <script src="js/videojs-http-streaming.js"></script>
+    <title>Live Stream : Object Detect</title>
+    <link rel="stylesheet" href='@js/style.css'/>
+        <link href="@js/video-js.css" rel="stylesheet">
+        <script src='@js/video.min.js'></script>
+        <script src="@js/videojs-http-streaming.js"></script>
     </head>
 <body>
 <h2 align="center"><b>Live Streaming Object Detection</b></h2>
 <div align="center">
-  <img src="{{ url_for('video_feed') }}" width='77%'>
+  <img src="{{ url_for('video_feed') }}" width='1080px'>
     
   <script>
     var player = videojs('live_stream');
