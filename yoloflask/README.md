@@ -16,7 +16,7 @@
 
 - ![image](https://user-images.githubusercontent.com/53273486/126007015-e7b20c95-4178-4de0-8133-ced2cff93d95.png)
 
-**This is for v5. Enter you rtsp/rtmp/https url in place of <your rtsp url> in the argument section of the function yolo.run(), make sure they are in single quotes**
+**This is for v5. Enter you rtsp/rtmp/https url in place of \&lt;your rtsp yrl\&gt; in the argument section of the function yolo.run()**
 
 **This repository has a both the YOLO.V3 and the YOLO.V5 in it.**
 
