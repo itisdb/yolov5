@@ -6,6 +6,7 @@
 - **python run.py --src='your stream url'**
 
 **Click on the local host link in the Terminal**
+
 **Enjoy the Stream : Now u can differ among objects**
 
 # *Complex Way*
