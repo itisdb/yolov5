@@ -1,5 +1,7 @@
 # **YOLO.v5 : Object Detection (Fire-Smoke Major) in real time using Flask**
 
+Download the Latest release: https://github.com/itisdb/yolov5/releases/tag/v1.0
+
 # *Simple Way*
 - **Open the Folder in Terminal & run the following:**
 - **python run.py --src='your stream url'**
