@@ -41,8 +41,7 @@ VOC/
 !targets*.mat
 
 # Neural Network weights -----------------------------------------------------------------------------------------------
-*.weights
-*.pt
+
 *.onnx
 *.mlmodel
 *.torchscript
