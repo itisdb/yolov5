@@ -4,8 +4,9 @@
 - **git clone https://github.com/itisdb/yolov5.git**
 - **cd yolov5**
 - **python run.py --src='your stream url'**
-- **Click on the local host link in the Terminal**
-- **Enjoy the Stream : Now u can differ among objects**
+
+**Click on the local host link in the Terminal**
+**Enjoy the Stream : Now u can differ among objects**
 
 # *Complex Way*
 
