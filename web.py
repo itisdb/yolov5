@@ -29,7 +29,7 @@ def gen_frames():
 
 #Change this to your source file _ 0: webcam, or paste the rtsp url here
 #src='your rtsp url here'
-src='https://192.168.29.227:8080/video'
+src='enter your rtsp/https/rtmp url'
 
 @app.route('/')
 def index():
