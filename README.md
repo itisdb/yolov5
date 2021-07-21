@@ -1,7 +1,7 @@
 # **YOLO.v5 : Object Detection (Fire-Smoke Major) in real time using Flask**
 
 # *Simple Way*
-- **git clone **
+- **git clone https://github.com/itisdb/yolov5.git**
 - **python run.py --src='your stream url'**
 - **Click on the local host link in the Terminal**
 - **Enjoy the Stream : Now u can differ among objects**
