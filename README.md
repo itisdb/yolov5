@@ -23,4 +23,4 @@ For any help regarding the command line use:
 - **python web.py --help**
 
 ***Output***
-![image](https://user-images.githubusercontent.com/53273486/126558470-78b4d462-2968-4f2c-aee3-9827007ddb8d.png)
+![Screenshot 2021-07-22 022837](https://user-images.githubusercontent.com/53273486/126559235-90654421-b187-456d-93ff-f57da3fc19c3.jpg)
