@@ -10,7 +10,7 @@
 
 **Change the Source as per your choice (in web.py):**
 
-- ![image](https://user-images.githubusercontent.com/53273486/126006975-c76f5607-2da4-430b-b902-6953eedd54fb.png)
+- ![image](https://user-images.githubusercontent.com/53273486/126552894-727dc586-d724-4088-9c0a-0fe1741df444.png)
 
 **This is for v5. Change the value of src to the rtsp/rtmp/https url (make sure they are in single quotes)**
 
