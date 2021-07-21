@@ -8,6 +8,8 @@
 
 # *Complex Way*
 
+**Download the Latest Source Code from https://github.com/itisdb/yolov5**
+
 **Install dependencies:**
 - **python -m venv venv**
 - **venv\Scripts\activate**
